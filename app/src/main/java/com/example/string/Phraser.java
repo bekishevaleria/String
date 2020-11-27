@@ -2,7 +2,7 @@ package com.example.string;
 
 public class Phraser {
 
-    public static void PhraserGen() {
+    public static String PhraserGen() {
 //Создайте три набора слов для выбора. Можете добавлять собственные слова!
         String[] wordListOne = {"круглосуточный", "трех-звенный",
                 "30-футовьй", "взаимный", "обоюдный выигрыш", "фронтэнд",
@@ -32,5 +32,6 @@ public class Phraser {
         // TODO 1.1 Поставьте Breakpoint
         String phrase = wordListOne[rl] + " " +
                 wordListTwo[r2] + " " + wordListThree[r3];
+        return phrase;
     }
 }
